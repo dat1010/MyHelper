@@ -13,7 +13,7 @@ defmodule MyHelper do
 
   """
   def hello do
-     "../../../Working/65753_TestDocumentServer/"
+     "../../../Working/65753_TestDocumentServer"
      |> FlatFiles.list_all
      |> FileSearch.search_file
   end
